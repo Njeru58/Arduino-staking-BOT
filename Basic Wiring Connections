@@ -1,0 +1,23 @@
+Power Connections:
+
+Arduino to Breadboard: Take one of the 5V pin of Arduino and put it on the positive side of the breadboard (red) and one of the GND pin on the negative side of the breadboard (blue).
+Connecting the Ultrasonic Sensor (as LiDAR):
+
+VCC: Connect on VCC pin of the ultrasonic sensor with the positive rail of the breadboard.
+GND: Simply fix the GND pin from the ultrasonic sensor to the negative rail of the breadboard.
+Trig Pin: Solder the Trig pin of ultrasonic sensor to digital pin 9 present on Arduino board.
+Echo Pin: Solder the Echo pin of the ultrasonic sensor to the pin 10 on Arduino.
+Connecting the LED (as Laser Module):
+
+Anode (+): Solder the end of the long leg (anode) of the LED to a digital pin of the Arduino board (for instance, Pin 11) with a resistor (220) to it.
+Cathode (-): Solder the short leg of the LED to the ground of the breadboard circuit as we call the negative terminal of the LED as cathode.
+Connecting the Servo Motor:
+
+Power: Solder the red wire of the servo to the positive terminal of the bread board.
+Ground: Brown or black wire ground can be connected to the negative side of the breadboard.
+Signal: To the SCK we connect the clock wire (usually orange or blue) to Arduino pin 7 and connect the signal wire (usually yellow or white) to a digital pin (e.g., 6).
+Connecting the Motor Driver (if using DC motors):
+
+Power: Solder the VCC pin of the motor driver to the positive rails of the breadboard and GND to negative breadboard rail.
+Input Pins: Solder the control pins of the motor driver to the Arduino digital pins for instance IN1 to pin 2 IN2 to pin 3.
+Motor Connections: Screw the motor terminal to the output pins of the motor driver, for instance OUT1 and OUT2.
