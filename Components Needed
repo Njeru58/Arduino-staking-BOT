@@ -1,0 +1,6 @@
+Arduino Uno: Search for "Arduino Uno" in the components panel on the right and drag it onto the workspace.
+LiDAR Sensor: Since Tinkercad might not have a specific LiDAR sensor, you can use an Ultrasonic Sensor (HC-SR04) as a placeholder. Search for "Ultrasonic" and add it to the workspace.
+Laser Module: Use an LED to represent the laser pointer. Search for "LED" and add it.
+Servo Motors: Search for "Servo" and add one or two, depending on your design.
+Motor Driver: Add the L298N Motor Driver module if available, or you can use individual motors to simulate movement.
+Breadboard: Add a breadboard for easier wiring connections.
